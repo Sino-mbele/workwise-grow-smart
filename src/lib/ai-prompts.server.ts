@@ -1,6 +1,10 @@
 import { RESPONSIBLE_AI_RULES } from "./ai.server";
 
-export type Persona = { name?: string; role?: string; industry?: string };
+export type Persona = {
+  name?: string | undefined;
+  role?: string | undefined;
+  industry?: string | undefined;
+};
 
 function who(p?: Persona) {
   if (!p) return "";
