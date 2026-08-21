@@ -158,7 +158,7 @@ function MeetingsPage() {
         }
       />
 
-      <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.25fr)]">
+      <div className="grid gap-6 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.6fr)]">
         <Panel
           title="Meeting notes"
           description="Messy bullet points work fine — no formatting required."
